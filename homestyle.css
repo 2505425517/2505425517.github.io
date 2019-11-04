@@ -1,0 +1,489 @@
+
+body{
+	/*background-color:  #ed5565;*/
+	padding: 0;
+	margin: 0;
+	background-color: aliceblue;
+}
+
+/*.header {
+	background-color: #ed5565;
+	padding: 30px;
+	margin: 0;
+}*/
+a{
+	text-decoration: none;
+}
+a:link {
+	color: #551a8b;
+}
+a:hover{
+	background-color:  plum;
+}
+a:visited{
+	color: #551a8b;	
+}
+.main {
+	/*text-align: center;*/
+}
+
+.header {
+	color: #ffffff;
+	background-color: #d56464;
+	/*background-color:  #00ff00;  //for test */
+	text-align: center;
+	/*font-family:"仿宋";*/
+	font-size: 45px;
+	/*text-shadow: 2px 2px 2px #eeeeee;*/
+	padding: 16px;
+	margin: 0;
+}
+.header a{
+	text-decoration: none;
+	font-size: 25px;
+	/*font-family: "宋体";*/
+	color: #FFFFFF;
+}
+.header a:hover{
+	text-decoration: none;
+	font-size: 25px;
+	/*font-family: "宋体";*/
+	color: #FFFFFF;
+}
+#menubackground {
+	color: #ffffff;
+	background-color: #584D4D;
+	/*background-color:  #6E5757;*/  /*#876C6C;*/
+	text-align: center;
+	/*text-shadow: 2px 2px 2px #eeeeee;*/
+	/*padding: 15px;*/
+	margin: 0;
+	height:50px;
+}
+
+#how3 {
+	/*float: left;*/
+	background-color: #584D4D ;
+	text-decoration: none;
+	text-align: center;
+	/*text-shadow: 2px 2px 2px #eeeeee;*/
+	padding: 15px;
+	margin: 0;
+	height:20px;
+	width: 80px;
+	float:left;
+	text-align: left;
+}
+#how3p{
+	/*float: left;*/
+	background-color: #584D4D ;
+	text-decoration: none;
+	text-align: center;
+	/*text-shadow: 2px 2px 2px #eeeeee;*/
+	/*padding: 15px;*/
+	padding-top: 13px;;
+	margin: 0;
+	height:30px;
+	width: 120px;
+	float:left;
+	text-align: right;
+}
+
+#how2f {
+	/*float: left;*/
+	background-color: #D56464;
+	text-decoration: none;
+	text-align: center;
+	/*text-shadow: 2px 2px 2px #eeeeee;*/
+	padding: 15px;
+	margin: 0;
+	height:20px;
+	width: 80px;
+	float:left;
+	/*border: dotted 1px red;*/
+}
+#how2p {
+	/*float: left;*/
+	background-color: #D56464;
+	text-decoration: none;
+	text-align: center;
+	/*text-shadow: 2px 2px 2px #eeeeee;*/
+	padding: 15px;
+	margin: 0;
+	height:20px;
+	width: 30px;
+	float:left;
+	/*border: dotted 1px red;*/
+}
+#how2 {
+	/*float: left;*/
+	background-color: #584D4D ;
+	text-decoration: none;
+	text-align: center;
+	/*text-shadow: 2px 2px 2px #eeeeee;*/
+	padding: 15px;
+	margin: 0;
+	height:20px;
+	width: 80px;
+	float:left;
+	/*border: dotted 1px red;*/
+}
+#how a {
+	text-decoration: none;
+	color:#FFFFFF;
+	font-size: 17px;
+	line-height: 0.8;
+}
+#how {
+	width:auto;
+	height: auto;	
+	background-color: #584D4D;
+	/*position: absolute;
+	left:20px;
+	top:78px;*/
+}
+#how a:hover{
+	background-color: #D56464;
+}
+/*#menucontainer  {
+	color: #ffffff;
+	background-color:aquamarine ;
+	width:80%;
+	background-color: #f00;
+	text-align: center;
+	font-size: 20px;
+	/*text-shadow: 2px 2px 2px #eeeeee;*/
+	/*padding: 15px;
+	margin: 0;
+	position: absolute;
+	left: 20%;
+}
+#firstmenu {
+	position: fixed;
+	left:20%;
+	top:200px;
+	background-color: #0f0;
+	float:left;
+}
+#headermenu {
+	width: 10%;
+	background-color: #0f0;
+}
+#headermenu li{
+	list-style: none;
+	/*display:inline;*/
+	
+	/*float: left;*/
+	/*width:100%;*/
+/*}*/
+
+.container {
+	background-color: aliceblue;
+	height: 100%;
+}
+
+
+#toptip {
+	color: brown;
+	background-color: antiquewhite;
+	/*background-color:  #6E5757;*/  /*#876C6C;*/
+	
+	/*text-shadow: 2px 2px 2px #eeeeee;*/
+	/*padding: 15px;*/
+	margin-left: auto;
+	margin-right: auto;
+	/*text-align: center;*/
+	height:30px;
+	width: 96%;
+}
+#welcome {
+	color: brown;
+	background-color: antiquewhite;
+	/*background-color:  #6E5757;*/  /*#876C6C;*/
+	
+	/*text-shadow: 2px 2px 2px #eeeeee;*/
+	/*padding: 15px;*/
+	/*margin: 0;*/
+	/*padding:0 px ;*/
+	text-align: center;
+	line-height: 1.8;
+	height:30px;
+	width: 400px;
+	float: left;
+}
+#login  {
+	color: brown;
+	/*background-color: bisque;*/
+	text-align: center;
+	line-height: 1.8;
+	height:30px;
+	width: 120px;
+	float: right;
+	padding: 3px;
+}
+#login a {
+	color: brown;
+	background-color: antiquewhite;
+	text-align: center;
+	line-height: 1.5;
+	clear: both;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 5px ;
+}
+#contentbg {
+	color: brown;
+	background-color: aliceblue;
+	/*background-color:  #6E5757;*/  /*#876C6C;*/
+	
+	/*text-shadow: 2px 2px 2px #eeeeee;*/
+	/*padding: 15px;*/
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	/*padding: 10px;*/
+	/*text-align: center;*/
+	height: 1320px;
+	width: 96%;
+}
+
+#content_left {
+	/*margin-left: 30.725px;*/
+	width: 70%;
+	height: 1300px;
+	float: left;
+}
+/*#content_left_inside{
+	margin-left: auto;
+	margin-right: auto;
+}*/
+#content_right {
+	/*margin-right: 30.725px;*/
+	width: 30%;
+	height: 1300px;
+	float: right;
+}
+#leftimg {
+	float: left;
+	/*margin-left: 5px;*/
+	margin-right: 20px;
+	margin-left: 66px;
+	margin-top: 3px;
+}
+#leftimg div {	
+	margin-top: 2px;
+	border: 1px;
+	border-style: dotted;
+	border-color: #A52A2A;
+	width: 177px;
+	height: 100px;
+	/*padding-bottom: px;*/
+}
+/*#leftimg_a {
+	border: 2px;
+	border-style: dashed;
+	border-color: #A52A2A;
+}*/
+#midimg {
+	margin-top: 5px;
+	float: left;
+}
+#maintext {
+	background-color: antiquewhite;
+	/*clear: both;*/	
+	margin-left: 66px;
+	margin-top: 5px;
+	margin-right: 15px;
+	height: 190px;
+	float:left;
+	padding-left: 15px;
+	width: 922px;
+}
+.title {
+	/*color:darkred;*/
+	font-size: 16px;
+	text-align: left;
+	margin-top: 10px;
+	padding:0px;
+	color: #1ABC9C;
+	/*display: inline;*/
+}
+.title a {
+	
+}
+.latest  {
+	line-height: 1.5;
+}
+.latest ul {
+	margin-top: 8px;
+}
+.latest li {
+	/*list-style: none;*/
+}
+.manyimg {
+	/*margin-left: 10px;*/
+	margin-left: 66px;
+	border: 3px solid red;
+	clear: both;
+	margin-right: 15px;
+}
+.image {
+	border : 1px solid brown;
+	width: auto;
+	height: auto;
+	float: left;
+	text-align: center;
+	margin-top: 20px;
+	margin-right: 15px;
+}
+.image a:hover {
+	background-color: aquamarine;
+}
+.imagetext {
+	margin-bottom: 5px;
+	font-size: 13px;
+}
+#imgframe{
+	/*margin-left: 35px;*/
+}
+
+#right_top {
+	background-color : antiquewhite;
+	height: 80px;
+	padding: 10px;
+	/*margin-left: 15px;*/
+	margin-top: -10px;
+	margin-bottom: 10px;
+}
+#right_top div {
+	float:left;
+	margin-left: 3px;
+	/*margin-top: 5px;*/
+}
+#right_mid {
+	background-color : antiquewhite;
+	height: 220px;
+	padding: 10px;
+	margin-top: 15px;
+	text-align: center;
+}
+#right_mid a {
+	font-size: 18px;
+	color: #A52A2A;
+	line-height: 2;
+	padding-bottom: 10px;
+}
+.advertisement {
+	background-color : antiquewhite;
+	/*height: 170px;*/
+	height: 320px;
+	padding: 15px;
+	margin-top: 15px;
+	text-align: right;
+}
+.advertisement div {
+	float:right;
+}
+/*.advertisement div {
+	display: inline;
+}*/
+#advertisement_a {
+	margin-top: 70px;
+	margin-right: 40px;
+	font-size: 17px;
+}
+
+.footer {
+	border-top: 6px solid #D56464;
+	background-color: #777777;
+}
+.ending {
+	height: 50px;
+	font-size: 14px;
+	color: white;
+	text-align: center;
+	padding-top: 10px ;
+}
+.ending a{
+	font-size: 14px;
+	color: white;
+	text-align: center;
+}
+.ending span {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+
+/*外来部分-日历制作-略作修改
+来源：菜鸟教程 https://www.runoob.com/w3cnote/css-calendar-style.html */
+#calendar{
+	margin: auto;
+	position: absolute;
+	right: 30px;
+	/*top: 825px;*/
+	top: 910px;
+}
+#calendar ul {
+	list-style-type: none;
+}
+.month {
+    padding: 70px 25px;
+    width: 100%;
+    background: #1abc9c;
+    box-sizing:border-box;
+}
+#calendar ul {
+    margin: 0;
+    padding: 0;
+}
+.month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.month .prev {
+    float: left;
+    padding-top: 10px;
+}
+.month .next {
+    float: right;
+    padding-top: 10px;
+}
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color: #ddd;
+}
+.weekdays li {
+    display: inline-block;
+    width: 13%;
+    color: #666;
+    text-align: center;
+}
+.days {
+    padding: 0px 0;
+    background: #eee;
+    margin: 0;
+}
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:12px;
+    color: #777;
+}
+.days li .active {
+    padding: 5px;
+    background: #1abc9c;
+    color: white !important;
+}
+ 
+
+
+
+
+
